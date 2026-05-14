@@ -6,12 +6,14 @@ To write a Python program to detect the lines using Hough Transform.
 Anaconda - Python 3.7 
 
 ## Algorithm: 
+```
 Step 1: Import all the necessary modules for the program. 
 Step 2: Load an image using imread() from the cv2 module. 
 Step 3: Convert the image to grayscale. 
 Step 4: Using the Canny operator from cv2, detect the edges of the image.
 Step 5: Using the HoughLinesP(), detect line co-ordinates for every point in the images.
 Using a for loop, draw the lines on the found coordinates. Display the image.
+```
 
 ## Name: Oviya N
 ## Reg No: 212223040140
